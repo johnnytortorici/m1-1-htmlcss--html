@@ -1,1 +1,72 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 8</title>
+    </head>
+    <body>
+        <h1>Registration form</h1>
+
+        <form>
+            <div>
+                <lable>Username</lable>
+                <input type="text" required />
+    
+                <label>password</label>
+                <input type="password" required />
+            </div>
+            
+            <div>
+                <label>Email</label>
+                <input type="text" required />
+            </div>
+            
+
+            <div>Which taxi do you require?</div>
+
+            <div>
+                <input type="radio" name="taxi" id="car" />
+                <label for="car">Car</label>
+            </div>
+            <div>
+                <input type="radio" name="taxi" id="van" />
+                <label for="van">Van</label>
+            </div>
+            <div>
+                <input type="radio" name="taxi" id="tuk-tuk" />
+                <label for="tuk-tuk">Tuk Tuk</label>
+            </div>
+
+            <div>Extras</div>
+
+            <div>
+                <input type="checkbox" id="baby-seat" />
+                <label for="baby-seat">Baby Seat</label>
+            </div>
+            <div>
+                <input type="checkbox" id="wheelchair-access">
+                <label for="wheelchair-access">Wheelchair Access</label>
+            </div>
+            <div>
+                <input type="checkbox" id="stock-tip">
+                <label for="stock-tip">Stock Tip</label>
+            </div>
+
+            <div>
+                <label>Pickup</label>
+                <select>
+                    <option>Select One</option>
+                    <option>Taxi Office</option>
+                    <option>Town Hall</option>
+                    <option>We'll Guess!</option>
+                </select>
+            </div>
+            
+            <div>
+                <label>Special</label>
+                <textarea></textarea>
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
